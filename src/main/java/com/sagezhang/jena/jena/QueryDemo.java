@@ -8,13 +8,13 @@ import org.apache.jena.util.FileManager;
 import org.springframework.stereotype.Component;
 
 import java.util.List;
+
 /**
  * <p>demo query</p>
  *
  * @author SageZhang
  * @version 2018/7/25
  */
-
 @Component
 public class QueryDemo {
     public List<String> query(String param) {
