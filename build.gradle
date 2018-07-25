@@ -27,7 +27,6 @@ repositories {
 dependencies {
     compile('org.springframework.boot:spring-boot-starter-web')
     compile group: 'org.apache.jena', name: 'com.jena-core', version: '3.8.0'
-    compile group: 'org.apache.jena', name: 'jena-tdb', version: '3.8.0'
     compile group: 'org.apache.jena', name: 'jena-arq', version: '3.8.0'
     compileOnly('org.projectlombok:lombok')
     testCompile('org.springframework.boot:spring-boot-starter-test')
